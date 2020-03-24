@@ -1,0 +1,410 @@
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+@-webkit-keyframes s {
+  0%
+  {
+    stroke-dasharray: 0 300;
+  }
+
+  100% {
+    stroke-dasharray: 300 0;
+  }
+}
+@keyframes s {
+  0% {
+    stroke-dasharray: 0 300;
+  }
+  100% {
+    stroke-dasharray: 300 0;
+  }
+}
+@-webkit-keyframes f {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+    opacity: .5;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: .1;
+  }
+  100% {
+    -webkit-transform: translateY(50vh);
+            transform: translateY(50vh);
+    opacity: 0;
+  }
+}
+@keyframes f {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+    opacity: .5;
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: .1;
+  }
+  100% {
+    -webkit-transform: translateY(50vh);
+            transform: translateY(50vh);
+    opacity: 0;
+  }
+}
+html {
+  height: 100%;
+}
+
+body {
+  background: #a32300;
+  font-family: 'Calligraffitti';
+  height: 100%;
+  text-align: center;
+}
+img[alt*="www.000webhost.com"]{
+display:none!important;
+opacity:0;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+display:none!important;
+opacity:0;
+}
+
+svg {
+  margin-top: calc(50vh - 75px);
+  width: 300px;
+}
+
+.Haura, .Wiyana {
+  fill: none;
+  stroke: #fff;
+  text-shadow: 0 0 14px #a32300;
+  stroke-width: 4;
+  stroke-dasharray: 0 100;
+  text-anchor: middle;
+}
+
+.Haura {
+  font-size: 44px;
+}
+.Haura tspan:nth-child(1) {
+  -webkit-animation: s 2s 1s linear forwards;
+          animation: s 2s 1s linear forwards;
+}
+.Haura tspan:nth-child(2) {
+  -webkit-animation: s 2s 2s linear forwards;
+          animation: s 2s 2s linear forwards;
+}
+.Haura tspan:nth-child(3) {
+  -webkit-animation: s 2s 3s linear forwards;
+          animation: s 2s 3s linear forwards;
+}
+.Haura tspan:nth-child(4) {
+  -webkit-animation: s 2s 4s linear forwards;
+          animation: s 2s 4s linear forwards;
+}
+.Haura tspan:nth-child(5) {
+  -webkit-animation: s 2s 5s linear forwards;
+          animation: s 2s 5s linear forwards;
+}
+
+.Wiyana {
+  font-size: 64px;
+  stroke-width: 6;
+}
+.Wiyana tspan:nth-child(1) {
+  -webkit-animation: s 2s 6s linear forwards;
+          animation: s 2s 6s linear forwards;
+}
+.Wiyana tspan:nth-child(2) {
+  -webkit-animation: s 2s 7s linear forwards;
+          animation: s 2s 7s linear forwards;
+}
+.Wiyana tspan:nth-child(3) {
+  -webkit-animation: s 2s 8s linear forwards;
+          animation: s 2s 8s linear forwards;
+}
+.Wiyana tspan:nth-child(4) {
+  -webkit-animation: s 2s 9s linear forwards;
+          animation: s 2s 9s linear forwards;
+}
+.Wiyana tspan:nth-child(5) {
+  -webkit-animation: s 2s 10s linear forwards;
+          animation: s 2s 10s linear forwards;
+}
+.Wiyana tspan:nth-child(6) {
+  -webkit-animation: s 2s 11s linear forwards;
+          animation: s 2s 11s linear forwards;
+}
+.Wiyana tspan:nth-child(7) {
+  -webkit-animation: s 2s 12s linear forwards;
+          animation: s 2s 12s linear forwards;
+}
+.Wiyana tspan:nth-child(8) {
+  -webkit-animation: s 2s 13s linear forwards;
+          animation: s 2s 13s linear forwards;
+}
+.Wiyana tspan:nth-child(9) {
+  -webkit-animation: s 2s 14s linear forwards;
+          animation: s 2s 14s linear forwards;
+}
+
+.Snow {
+  position: absolute;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.Snow-flake {
+  -webkit-animation: f 4s linear infinite;
+          animation: f 4s linear infinite;
+  display: inline-block;
+  border-radius: 50%;
+  background: #fff;
+  margin: 0 10px 0;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+  opacity: .5;
+}
+.Snow-flake:nth-child(1) {
+  -webkit-animation-delay: -2.1009581496s;
+          animation-delay: -2.1009581496s;
+}
+.Snow-flake:nth-child(2) {
+  -webkit-animation-delay: -1.9154426233s;
+          animation-delay: -1.9154426233s;
+}
+.Snow-flake:nth-child(3) {
+  -webkit-animation-delay: -0.715903156s;
+          animation-delay: -0.715903156s;
+}
+.Snow-flake:nth-child(4) {
+  -webkit-animation-delay: -2.5649226658s;
+          animation-delay: -2.5649226658s;
+}
+.Snow-flake:nth-child(5) {
+  -webkit-animation-delay: -0.5622035716s;
+          animation-delay: -0.5622035716s;
+}
+.Snow-flake:nth-child(6) {
+  -webkit-animation-delay: -3.6086284034s;
+          animation-delay: -3.6086284034s;
+}
+.Snow-flake:nth-child(7) {
+  -webkit-animation-delay: -1.8225877635s;
+          animation-delay: -1.8225877635s;
+}
+.Snow-flake:nth-child(8) {
+  -webkit-animation-delay: -0.7004307247s;
+          animation-delay: -0.7004307247s;
+}
+.Snow-flake:nth-child(9) {
+  -webkit-animation-delay: -0.8723261268s;
+          animation-delay: -0.8723261268s;
+}
+.Snow-flake:nth-child(10) {
+  -webkit-animation-delay: -0.8375272626s;
+          animation-delay: -0.8375272626s;
+}
+.Snow-flake:nth-child(11) {
+  -webkit-animation-delay: -2.978972152s;
+          animation-delay: -2.978972152s;
+}
+.Snow-flake:nth-child(12) {
+  -webkit-animation-delay: -3.4307332564s;
+          animation-delay: -3.4307332564s;
+}
+.Snow-flake:nth-child(13) {
+  -webkit-animation-delay: -3.4011561698s;
+          animation-delay: -3.4011561698s;
+}
+.Snow-flake:nth-child(14) {
+  -webkit-animation-delay: -3.8017996844s;
+          animation-delay: -3.8017996844s;
+}
+.Snow-flake:nth-child(15) {
+  -webkit-animation-delay: -0.3558782365s;
+          animation-delay: -0.3558782365s;
+}
+.Snow-flake:nth-child(16) {
+  -webkit-animation-delay: -2.6491942749s;
+          animation-delay: -2.6491942749s;
+}
+.Snow-flake:nth-child(17) {
+  -webkit-animation-delay: -1.6140625771s;
+          animation-delay: -1.6140625771s;
+}
+.Snow-flake:nth-child(18) {
+  -webkit-animation-delay: -3.1619073303s;
+          animation-delay: -3.1619073303s;
+}
+.Snow-flake:nth-child(19) {
+  -webkit-animation-delay: -0.3475519853s;
+          animation-delay: -0.3475519853s;
+}
+.Snow-flake:nth-child(20) {
+  -webkit-animation-delay: -3.2276626928s;
+          animation-delay: -3.2276626928s;
+}
+.Snow-flake:nth-child(21) {
+  -webkit-animation-delay: -1.5354678732s;
+          animation-delay: -1.5354678732s;
+}
+.Snow-flake:nth-child(22) {
+  -webkit-animation-delay: -3.1003874426s;
+          animation-delay: -3.1003874426s;
+}
+.Snow-flake:nth-child(23) {
+  -webkit-animation-delay: -0.7198047302s;
+          animation-delay: -0.7198047302s;
+}
+.Snow-flake:nth-child(24) {
+  -webkit-animation-delay: -0.4071870462s;
+          animation-delay: -0.4071870462s;
+}
+.Snow-flake:nth-child(25) {
+  -webkit-animation-delay: -1.7800468515s;
+          animation-delay: -1.7800468515s;
+}
+.Snow-flake:nth-child(26) {
+  -webkit-animation-delay: -3.3478376331s;
+          animation-delay: -3.3478376331s;
+}
+.Snow-flake:nth-child(27) {
+  -webkit-animation-delay: -2.7873900006s;
+          animation-delay: -2.7873900006s;
+}
+.Snow-flake:nth-child(28) {
+  -webkit-animation-delay: -1.8919959059s;
+          animation-delay: -1.8919959059s;
+}
+.Snow-flake:nth-child(29) {
+  -webkit-animation-delay: -0.7027078522s;
+          animation-delay: -0.7027078522s;
+}
+.Snow-flake:nth-child(30) {
+  -webkit-animation-delay: -2.7549601268s;
+          animation-delay: -2.7549601268s;
+}
+.Snow-flake:nth-child(31) {
+  -webkit-animation-delay: -2.3312865701s;
+          animation-delay: -2.3312865701s;
+}
+.Snow-flake:nth-child(32) {
+  -webkit-animation-delay: -2.55866222s;
+          animation-delay: -2.55866222s;
+}
+.Snow-flake:nth-child(33) {
+  -webkit-animation-delay: -0.2807976712s;
+          animation-delay: -0.2807976712s;
+}
+.Snow-flake:nth-child(34) {
+  -webkit-animation-delay: -2.1875265965s;
+          animation-delay: -2.1875265965s;
+}
+.Snow-flake:nth-child(35) {
+  -webkit-animation-delay: -3.0654375716s;
+          animation-delay: -3.0654375716s;
+}
+.Snow-flake:nth-child(36) {
+  -webkit-animation-delay: -1.9858212079s;
+          animation-delay: -1.9858212079s;
+}
+.Snow-flake:nth-child(37) {
+  -webkit-animation-delay: -0.971545418s;
+          animation-delay: -0.971545418s;
+}
+.Snow-flake:nth-child(38) {
+  -webkit-animation-delay: -3.4906209739s;
+          animation-delay: -3.4906209739s;
+}
+.Snow-flake:nth-child(39) {
+  -webkit-animation-delay: -1.5289293429s;
+          animation-delay: -1.5289293429s;
+}
+.Snow-flake:nth-child(40) {
+  -webkit-animation-delay: -1.9297071311s;
+          animation-delay: -1.9297071311s;
+}
+.Snow-flake:nth-child(41) {
+  -webkit-animation-delay: -1.5266538113s;
+          animation-delay: -1.5266538113s;
+}
+.Snow-flake:nth-child(42) {
+  -webkit-animation-delay: -3.8717369715s;
+          animation-delay: -3.8717369715s;
+}
+.Snow-flake:nth-child(43) {
+  -webkit-animation-delay: -2.2705487745s;
+          animation-delay: -2.2705487745s;
+}
+.Snow-flake:nth-child(44) {
+  -webkit-animation-delay: -3.1346941848s;
+          animation-delay: -3.1346941848s;
+}
+.Snow-flake:nth-child(45) {
+  -webkit-animation-delay: -0.0356486534s;
+          animation-delay: -0.0356486534s;
+}
+.Snow-flake:nth-child(46) {
+  -webkit-animation-delay: -2.5192866221s;
+          animation-delay: -2.5192866221s;
+}
+.Snow-flake:nth-child(47) {
+  -webkit-animation-delay: -1.4767852899s;
+          animation-delay: -1.4767852899s;
+}
+.Snow-flake:nth-child(48) {
+  -webkit-animation-delay: -0.4222033295s;
+          animation-delay: -0.4222033295s;
+}
+.Snow-flake:nth-child(49) {
+  -webkit-animation-delay: -1.1163576306s;
+          animation-delay: -1.1163576306s;
+}
+.Snow-flake:nth-child(50) {
+  -webkit-animation-delay: -1.7700254645s;
+          animation-delay: -1.7700254645s;
+}
+.Snow-flake:nth-child(51) {
+  -webkit-animation-delay: -2.0432249127s;
+          animation-delay: -2.0432249127s;
+}
+.Snow-flake:nth-child(52) {
+  -webkit-animation-delay: -1.7752940696s;
+          animation-delay: -1.7752940696s;
+}
+.Snow-flake:nth-child(53) {
+  -webkit-animation-delay: -1.2143107317s;
+          animation-delay: -1.2143107317s;
+}
+.Snow-flake:nth-child(54) {
+  -webkit-animation-delay: -1.9163849543s;
+          animation-delay: -1.9163849543s;
+}
+.Snow-flake:nth-child(55) {
+  -webkit-animation-delay: -1.3286200433s;
+          animation-delay: -1.3286200433s;
+}
+
+.Love {
+  position: absolute;
+  background: #fff;
+  bottom: 0;
+  height: 44px;
+  width: 100%;
+  left: 0;
+  color: #a32300;
+}
+.Love-heart, .Love-text {
+  display: inline-block;
+  font-family: sans-serif;
+  line-height: 44px;
+}
